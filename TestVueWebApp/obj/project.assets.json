@@ -9267,11 +9267,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Егерь\\source\\repos\\TestVueWebApp\\TestVueWebApp.csproj",
+      "projectUniqueName": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\TestVueWebApp.csproj",
       "projectName": "TestVueWebApp",
-      "projectPath": "C:\\Users\\Егерь\\source\\repos\\TestVueWebApp\\TestVueWebApp.csproj",
+      "projectPath": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\TestVueWebApp.csproj",
       "packagesPath": "C:\\Users\\Егерь\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Егерь\\source\\repos\\TestVueWebApp\\obj\\",
+      "outputPath": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

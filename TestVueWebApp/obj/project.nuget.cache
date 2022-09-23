@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "gExXJWnBkyw4DlXoZ4DDhqrvYSYgOycLUThhcc+gPJK3+2BzIn2iYgtY3v70oB/l7Wr5JTxmH1Rcan9Dgfpl0A==",
+  "dgSpecHash": "Rg2rq0his4uhdDZXdu00HEjAgW77HOjN26TzRrnW9HGDc+GnW5U7cDO2UpFZA+e/ktcKtuz8C9Xgh5BAHzBIwA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Егерь\\source\\repos\\TestVueWebApp\\TestVueWebApp.csproj",
+  "projectFilePath": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\TestVueWebApp.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Егерь\\.nuget\\packages\\entityframework\\6.4.4\\entityframework.6.4.4.nupkg.sha512",
     "C:\\Users\\Егерь\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
