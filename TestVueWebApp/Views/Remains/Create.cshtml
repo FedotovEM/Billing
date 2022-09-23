@@ -1,0 +1,52 @@
+﻿@model TestVueWebApp.Repository.Models.Remain
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Create</h1>
+
+<h4>Remain</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="AccountCd" class="control-label"></label>
+                <select asp-for="AccountCd" class="form-control" asp-items="ViewBag.AccountCd"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="ServiceCd" class="control-label"></label>
+                <select asp-for="ServiceCd" class="form-control" asp-items="ViewBag.ServiceCd"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remmonth" class="control-label"></label>
+                <input asp-for="Remmonth" class="form-control" />
+                <span asp-validation-for="Remmonth" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remyear" class="control-label"></label>
+                <input asp-for="Remyear" class="form-control" />
+                <span asp-validation-for="Remyear" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Remainsum" class="control-label"></label>
+                <input asp-for="Remainsum" class="form-control" />
+                <span asp-validation-for="Remainsum" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

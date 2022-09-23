@@ -1,0 +1,14 @@
+﻿@model TestVueWebApp.Repository.Models.Street
+@using Newtonsoft.Json
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="app">
+    <details-component edit-street-url="@Url.Action("Edit", "Streets")" index-street-url="@Url.Action("Index", "Streets")" :street="@JsonConvert.SerializeObject(Model)"></details-component>
+</div>
+@section Scripts{
+    <script src="@Url.Content("~/bundle/streets.js")"></script>
+}
+

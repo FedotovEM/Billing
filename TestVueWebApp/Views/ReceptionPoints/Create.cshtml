@@ -1,0 +1,13 @@
+﻿@model TestVueWebApp.Repository.Models.ReceptionPoint
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="app">
+    <reception-create-component create-reception-url="@Url.Action("Create")"></reception-create-component>
+</div>
+@section Scripts{
+    <script src="@Url.Content("~/bundle/ReceptionPoints.js")"></script>
+}

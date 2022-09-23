@@ -1,0 +1,13 @@
+﻿@model TestVueWebApp.Repository.Models.Unit
+@using Newtonsoft.Json
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="app">
+    <unit-details-component edit-unit-url="@Url.Action("Edit", "Units")" index-unit-url="@Url.Action("Index", "Units")" :unit="@JsonConvert.SerializeObject(Model)"></unit-details-component>
+</div>
+@section Scripts{
+    <script src="@Url.Content("~/bundle/Units.js")"></script>
+}

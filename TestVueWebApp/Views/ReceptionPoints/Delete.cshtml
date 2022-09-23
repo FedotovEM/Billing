@@ -1,0 +1,13 @@
+﻿@model TestVueWebApp.Repository.Models.ReceptionPoint
+@using Newtonsoft.Json
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="app">
+    <reception-delete-component delete-reception-url="@Url.Action("Delete", "ReceptionPoints")" index-reception-url="@Url.Action("Index", "ReceptionPoints")" :reception="@JsonConvert.SerializeObject(Model)"></reception-delete-component>
+</div>
+@section Scripts{
+    <script src="@Url.Content("~/bundle/ReceptionPoints.js")"></script>
+}

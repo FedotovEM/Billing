@@ -1,0 +1,77 @@
+﻿@model TestVueWebApp.Repository.Models.Abonent
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>Abonent</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="AccountCd" class="control-label"></label>
+                <input asp-for="AccountCd" class="form-control" />
+                <span asp-validation-for="AccountCd" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Fio" class="control-label"></label>
+                <input asp-for="Fio" class="form-control" />
+                <span asp-validation-for="Fio" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="StreetCd" class="control-label"></label>
+                <select asp-for="StreetCd" class="form-control" asp-items="ViewBag.StreetCd"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="HouseNo" class="control-label"></label>
+                <input asp-for="HouseNo" class="form-control" />
+                <span asp-validation-for="HouseNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="FlatNo" class="control-label"></label>
+                <input asp-for="FlatNo" class="form-control" />
+                <span asp-validation-for="FlatNo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Phone" class="control-label"></label>
+                <input asp-for="Phone" class="form-control" />
+                <span asp-validation-for="Phone" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Сorpus" class="control-label"></label>
+                <input asp-for="Сorpus" class="form-control" />
+                <span asp-validation-for="Сorpus" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="District" class="control-label"></label>
+                <input asp-for="District" class="form-control" />
+                <span asp-validation-for="District" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="CountPerson" class="control-label"></label>
+                <input asp-for="CountPerson" class="form-control" />
+                <span asp-validation-for="CountPerson" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="SizeFlat" class="control-label"></label>
+                <input asp-for="SizeFlat" class="form-control" />
+                <span asp-validation-for="SizeFlat" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

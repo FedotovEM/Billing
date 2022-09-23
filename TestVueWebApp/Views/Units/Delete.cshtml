@@ -1,0 +1,13 @@
+﻿@model TestVueWebApp.Repository.Models.Unit
+@using Newtonsoft.Json
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="app">
+    <unit-delete-component delete-unit-url="@Url.Action("Delete", "Units")" index-unit-url="@Url.Action("Index", "Units")" :unit="@JsonConvert.SerializeObject(Model)"></unit-delete-component>
+</div>
+@section Scripts{
+    <script src="@Url.Content("~/bundle/Units.js")"></script>
+}

@@ -1,0 +1,13 @@
+﻿@model TestVueWebApp.Repository.Models.ReceptionPoint
+@using Newtonsoft.Json
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="app">
+    <reception-details-component edit-reception-url="@Url.Action("Edit", "ReceptionPoints")" index-reception-url="@Url.Action("Index", "ReceptionPoints")" :reception="@JsonConvert.SerializeObject(Model)"></reception-details-component>
+</div>
+@section Scripts{
+    <script src="@Url.Content("~/bundle/ReceptionPoints.js")"></script>
+}

@@ -1,0 +1,13 @@
+﻿@model TestVueWebApp.Repository.Models.Street
+@using Newtonsoft.Json
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="app">
+    <delete-component delete-street-url="@Url.Action("Delete", "Streets")" index-street-url="@Url.Action("Index", "Streets")" :street="@JsonConvert.SerializeObject(Model)"></delete-component>
+</div>
+@section Scripts{
+    <script src="@Url.Content("~/bundle/streets.js")"></script>
+}

@@ -1,0 +1,13 @@
+﻿@model TestVueWebApp.Repository.Models.Unit
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="app">
+<unit-create-component create-unit-url="@Url.Action("Create")"></unit-create-component>
+</div>
+@section Scripts{
+    <script src="@Url.Content("~/bundle/Units.js")"></script>
+}

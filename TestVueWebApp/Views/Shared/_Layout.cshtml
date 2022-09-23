@@ -1,0 +1,73 @@
+﻿<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>@ViewData["Title"] - TestVueWebApp</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container">
+                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">Учёт абонентов коммунального биллинга</a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navbar-collapse" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Справочники
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="nav-link text-dark" asp-area="" asp-controller="Disrepairs" asp-action="Index">Неисправности</a></li>
+                                <li><a class="nav-link text-dark" asp-area="" asp-controller="Streets" asp-action="Index">Улицы</a></li>
+                                <li><a class="nav-link text-dark" asp-area="" asp-controller="Executors" asp-action="Index">Исполнители</a></li>
+                                <li><a class="nav-link text-dark" asp-area="" asp-controller="Units" asp-action="Index">Единицы измерения</a></li>
+                                <li><a class="nav-link text-dark" asp-area="" asp-controller="Prices" asp-action="Index">Цены</a></li>
+                                <li><a class="nav-link text-dark" asp-area="" asp-controller="ReceptionPoints" asp-action="Index">Пункты приёма платежей</a></li>
+                                <li><a class="nav-link text-dark" asp-area="" asp-controller="Services" asp-action="Index">Предоставляемые услуги</a></li>
+                            </ul>
+                        </li>
+
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDarkDropdownMenuLink" role="button" data-toggle="dropdown" aria-expanded="false">
+                                Отчёты
+                            </a>
+                            <ul class="dropdown-menu dropdown-menu-dark" aria-labelledby="navbarDarkDropdownMenuLink">
+                                <li><a class="nav-link text-dark" asp-area="" asp-controller="NachislSummas" asp-action="Index">Начислено</a></li>
+                                <li><a class="nav-link text-dark" asp-area="" asp-controller="PaySummas" asp-action="Index">Оплачено</a></li>
+                                <li><a class="nav-link text-dark" asp-area="" asp-controller="Remains" asp-action="Index">Остатки</a></li>
+                                <li><a class="nav-link text-dark" asp-area="" asp-controller="Requests" asp-action="Index">Заявки на ремонт</a></li>
+                                <li><a class="nav-link text-dark" asp-area="" asp-controller="Abonents" asp-action="Index">Абоненты</a></li>
+                                <li><a class="nav-link text-dark" asp-area="" asp-controller="AbonentModes" asp-action="Index">Режимы потребления абонентов</a></li>
+                                <li><a class="nav-link text-dark" asp-area="" asp-controller="Modes" asp-action="Index">Режимы потребления</a></li>
+                            </ul>
+                        </li>
+
+
+
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+
+    @RenderBody()
+
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2022 - Учёт абонентов коммунального биллинга
+        </div>
+    </footer>
+    <script src="~/lib/jquery/dist/jquery.min.js"></script>
+    <script src="~/lib/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="~/js/site.js" asp-append-version="true"></script>
+
+    @await RenderSectionAsync("Scripts", required: false)
+</body>
+</html>

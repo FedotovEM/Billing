@@ -1,0 +1,13 @@
+﻿@model TestVueWebApp.Repository.Models.Disrepair
+@using Newtonsoft.Json
+@{
+    ViewData["Title"] = "Details";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="app">
+    <disrepair-details-component edit-disrepair-url="@Url.Action("Edit", "Disrepairs")" index-disrepair-url="@Url.Action("Index", "Disrepairs")" :disrepair="@JsonConvert.SerializeObject(Model)"></disrepair-details-component>
+</div>
+@section Scripts{
+    <script src="@Url.Content("~/bundle/disrepairs.js")"></script>
+}

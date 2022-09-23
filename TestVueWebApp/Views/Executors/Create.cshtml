@@ -1,0 +1,13 @@
+﻿@model TestVueWebApp.Repository.Models.Executor
+
+@{
+    ViewData["Title"] = "Create";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="app">
+    <executor-create-component create-executor-url="@Url.Action("Create")"></executor-create-component>
+</div>
+@section Scripts{
+    <script src="@Url.Content("~/bundle/executors.js")"></script>
+}

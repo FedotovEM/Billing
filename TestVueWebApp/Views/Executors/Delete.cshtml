@@ -1,0 +1,13 @@
+﻿@model TestVueWebApp.Repository.Models.Executor
+@using Newtonsoft.Json
+@{
+    ViewData["Title"] = "Delete";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div id="app">
+    <executor-delete-component delete-executor-url="@Url.Action("Delete", "Executors")" index-executor-url="@Url.Action("Index", "Executors")" :executor="@JsonConvert.SerializeObject(Model)"></executor-delete-component>
+</div>
+@section Scripts{
+    <script src="@Url.Content("~/bundle/executors.js")"></script>
+}
