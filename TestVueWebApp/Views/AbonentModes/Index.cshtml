@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>AbonentMode</h1>
+<h1>Режимы потребления абонентов</h1>
 
 <style>
     th {
@@ -14,28 +14,22 @@
 </style>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Добавить новую запись</a>
 </p>
 <select id="IdCombobox">
-    <option>AccountCdNavigation</option>
-    <option>ModeCdNavigation</option>
-    <option>Counterr</option>
+    <option>Лицевой счет</option>
+    <option>Режим потребления</option>
+    <option>Наличие счётчика</option>
 </select>
 
-<input type="text" id="Input" onkeyup="Search()" placeholder="Search" />
+<input type="text" id="Input" onkeyup="Search()" placeholder="Поиск" />
 
 <table id="table-id" class="table">
     <thead>
         <tr>
-            <th data-type="int">
-                @Html.DisplayNameFor(model => model.AccountCdNavigation)
-            </th>
-            <th data-type="string">
-                @Html.DisplayNameFor(model => model.ModeCdNavigation)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Counterr)
-            </th>
+            <th data-type="int">Лицевой счет</th>
+            <th data-type="string">Режим потребления</th>
+            <th>Наличие счётчика</th>
             <th></th>
         </tr>
     </thead>
@@ -53,9 +47,9 @@
                     @Html.DisplayFor(modelItem => item.Counterr)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.AbonentModeСd">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.AbonentModeСd">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.AbonentModeСd">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.AbonentModeСd">Изменить</a> |
+                    <a asp-action="Details" asp-route-id="@item.AbonentModeСd">Подробности</a> |
+                    <a asp-action="Delete" asp-route-id="@item.AbonentModeСd">Удалить</a>
                 </td>
             </tr>
         }

@@ -1,22 +1,20 @@
 <template>
     <div id="disrepair">
-        <h1>Disrepairs</h1>
+        <h1>Неисправности</h1>
         <p>
-            <a :href="CreateDisrepairsUrl">Create New</a>
+            <a :href="CreateDisrepairsUrl">Добавить новую запись</a>
         </p>
 
         <select id="IdCombobox">
-            <option>FailureName</option>
+            <option>Наименование неисправности</option>
         </select>
 
-        <input type="text" id="Input" onkeyup="Search()" placeholder="Search" />
+        <input type="text" id="Input" onkeyup="Search()" placeholder="Поиск" />
 
         <table id="table-id" class="table">
             <thead>
                 <tr>
-                    <th data-type="string">
-                        FailureName
-                    </th>
+                    <th data-type="string">Наименование неисправности</th>
                     <th></th>
                 </tr>
             </thead>
@@ -26,9 +24,9 @@
                         {{item.FailureName}}
                     </td>
                     <td>
-                        <a :href="EditDisrepairsUrl+'/'+item.FailureCd">Edit</a> |
-                        <a :href="DetailsDisrepairsUrl+'/'+item.FailureCd">Details</a> |
-                        <a :href="DeleteDisrepairsUrl+'/'+item.FailureCd">Delete</a>
+                        <a :href="EditDisrepairsUrl+'/'+item.FailureCd">Изменить</a> |
+                        <a :href="DetailsDisrepairsUrl+'/'+item.FailureCd">Подробности</a> |
+                        <a :href="DeleteDisrepairsUrl+'/'+item.FailureCd">Удалить</a>
                     </td>
                 </tr>
             </tbody>

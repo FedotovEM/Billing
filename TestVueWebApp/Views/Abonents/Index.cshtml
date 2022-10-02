@@ -4,7 +4,7 @@
     ViewData["Title"] = "Index";
 }
 
-<h1>Abonent</h1>
+<h1>Абоненты</h1>
 
 <style>
     th {
@@ -12,20 +12,20 @@
     }
 </style>
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Добавить новую запись</a>
 </p>
 
 <select id="IdCombobox">
-    <option>AccountCd</option>
-    <option>Fio</option>
-    <option>HouseNo</option>
-    <option>FlatNo</option>
-    <option>Phone</option>
-    <option>Сorpus</option>
-    <option>District</option>
-    <option>CountPerson</option>
-    <option>SizeFlat</option>
-    <option>StreetCdNavigation</option>
+    <option>Лицевой счет</option>
+    <option>ФИО</option>
+    <option>Номер дома</option>
+    <option>Номер квартиры</option>
+    <option>Телефон</option>
+    <option>Корпус</option>
+    <option>Район</option>
+    <option>Количество жильцов</option>
+    <option>Размер квартиры</option>
+    <option>Улица</option>
 </select>
 
 <input type="text" id="Input" onkeyup="Search()" placeholder="Поиск" />
@@ -33,36 +33,16 @@
 <table id="table-id" class="table">
     <thead>
         <tr>
-            <th data-type="int">
-                @Html.DisplayNameFor(model => model.AccountCd)
-            </th>
-            <th data-type="string">
-                @Html.DisplayNameFor(model => model.Fio)
-            </th>
-            <th data-type="int">
-                @Html.DisplayNameFor(model => model.HouseNo)
-            </th>
-            <th data-type="int">
-                @Html.DisplayNameFor(model => model.FlatNo)
-            </th>
-            <th data-type="string">
-                @Html.DisplayNameFor(model => model.Phone)
-            </th>
-            <th data-type="int">
-                @Html.DisplayNameFor(model => model.Сorpus)
-            </th>
-            <th data-type="string">
-                @Html.DisplayNameFor(model => model.District)
-            </th>
-            <th data-type="int">
-                @Html.DisplayNameFor(model => model.CountPerson)
-            </th>
-            <th data-type="double">
-                @Html.DisplayNameFor(model => model.SizeFlat)
-            </th>
-            <th data-type="string">
-                @Html.DisplayNameFor(model => model.StreetCdNavigation)
-            </th>
+            <th data-type="int">Лицевой счет</th>
+            <th data-type="string">ФИО</th>
+            <th data-type="int">Номер дома</th>
+            <th data-type="int">Номер квартиры</th>
+            <th data-type="string">Телефон</th>
+            <th data-type="int">Корпус</th>
+            <th data-type="string">РайонРайон</th>
+            <th data-type="int">Количество жильцов</th>
+            <th data-type="double">Размер квартиры</th>
+            <th data-type="string">Улица</th>
             <th></th>
         </tr>
     </thead>
@@ -101,9 +81,9 @@
                     @Html.DisplayFor(modelItem => item.StreetCdNavigation.StreetName)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.AccountCd">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.AccountCd">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.AccountCd">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.AccountCd">Изменить</a> |
+                    <a asp-action="Details" asp-route-id="@item.AccountCd">Подробности</a> |
+                    <a asp-action="Delete" asp-route-id="@item.AccountCd">Удалить</a>
                 </td>
             </tr>
         }

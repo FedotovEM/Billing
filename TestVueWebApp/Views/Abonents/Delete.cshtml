@@ -5,64 +5,46 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Delete</h1>
+<h1>Удаление</h1>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>Вы уверены, что хотите удалить эту запись?</h3>
 <div>
-    <h4>Abonent</h4>
+    <h4>Абонент</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Fio)
-        </dt>
+        <dt class = "col-sm-2">ФИО</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Fio)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.HouseNo)
-        </dt>
+        <dt class = "col-sm-2">Номер дома</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.HouseNo)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.FlatNo)
-        </dt>
+        <dt class = "col-sm-2">Номер квартиры</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.FlatNo)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Phone)
-        </dt>
+        <dt class = "col-sm-2">Телефон</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Phone)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Сorpus)
-        </dt>
+        <dt class = "col-sm-2">Корпус</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Сorpus)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.District)
-        </dt>
+        <dt class = "col-sm-2">Район</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.District)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CountPerson)
-        </dt>
+        <dt class = "col-sm-2">Количество жильцов</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.CountPerson)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.SizeFlat)
-        </dt>
+        <dt class = "col-sm-2">Размер квартиры</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.SizeFlat)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.StreetCdNavigation)
-        </dt>
+        <dt class = "col-sm-2">Улица</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.StreetCdNavigation.StreetName)
         </dd class>
@@ -70,7 +52,7 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="AccountCd" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="Удалить" class="btn btn-danger" /> |
+        <a asp-action="Index">Вернуться к списку</a>
     </form>
 </div>
