@@ -4,11 +4,6 @@ EXPOSE 5600
 
 ENV ASPNETCORE_URLS=http://+:5600
 
-# Creates a non-root user with an explicit UID and adds permission to access the /app folder
-# For more info, please refer to https://aka.ms/vscode-docker-dotnet-configure-containers
-RUN adduser -u 5678 --disabled-password --gecos "" appuser && chown -R appuser /app
-USER appuser
-
 FROM mcr.microsoft.com/dotnet/sdk:5.0-focal AS build
 WORKDIR /src
 COPY ["TestVueWebApp.csproj", "./"]
@@ -23,4 +18,5 @@ RUN dotnet publish "TestVueWebApp.csproj" -c Release -o /app/publish /p:UseAppHo
 FROM base AS final
 WORKDIR /app
 COPY --from=publish /app/publish .
-ENTRYPOINT ["dotnet", "TestVueWebApp.dll"]
+
+CMD ["/bin/bash", "/app/entrypoint.sh"]
