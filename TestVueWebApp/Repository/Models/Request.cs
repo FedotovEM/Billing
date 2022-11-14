@@ -26,7 +26,7 @@ namespace TestVueWebApp.Repository.Models
         public DateTime IncomingDate { get; set; }
         [Column(TypeName = "date")]
         public DateTime? ExecutionDate { get; set; }
-        public bool? Executed { get; set; }
+        public bool Executed { get; set; }
 
         [ForeignKey(nameof(AccountCd))]
         [InverseProperty(nameof(Abonent.Requests))]

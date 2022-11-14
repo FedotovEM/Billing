@@ -1,5 +1,5 @@
 ﻿@model IEnumerable<TestVueWebApp.Repository.Models.ReceptionPoint>
-@using Newtonsoft.Json
+
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -10,13 +10,39 @@
     }
 </style>
 
-<div id="app">
-    <reception-index-component create-reception-url="@Url.Action("Create")" delete-reception-url="@Url.Action("Delete")"
-                               edit-reception-url="@Url.Action("Edit")" details-reception-url="@Url.Action("Details")" :receptions="@JsonConvert.SerializeObject(Model)"></reception-index-component>
-</div>
+<h1>Пункты приема платежей</h1>
+    <p>
+        <a asp-action="Create">Добавить новую запись</a>
+    </p>
 
-@section Scripts{
-    <script src="@Url.Content("~/bundle/ReceptionPoints.js")"></script>
+    <select id="IdCombobox">
+        <option>Наименование пункта приема платежей</option>
+    </select>
+
+    <input type="text" id="Input" onkeyup="Search()" placeholder="Поиск" />
+
+    <table id="table-id" class="table">
+        <thead>
+            <tr>
+                <th data-type="string">Наименование пункта приема платежей</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        { <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.ReceptionName)
+                </td>
+                <td>
+                        <a asp-action="Edit" asp-route-id="@item.ReceptionPointCd">Изменить</a> |
+                        <a asp-action="Details" asp-route-id="@item.ReceptionPointCd">Подробности</a> |
+                        <a asp-action="Delete" asp-route-id="@item.ReceptionPointCd">Удалить</a>
+                </td>
+          </tr>
+        }
+        </tbody>
+    </table>
 
     <script>
         const table = document.querySelector('table');

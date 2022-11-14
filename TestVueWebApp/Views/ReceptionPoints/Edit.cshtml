@@ -1,14 +1,38 @@
 ﻿@model TestVueWebApp.Repository.Models.ReceptionPoint
-@using Newtonsoft.Json
+
 @{
     ViewData["Title"] = "Edit";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div id="app">
-    <reception-edit-component edit-reception-url="@Url.Action("Edit", "ReceptionPoints", new { ReceptionPointCd = Model.ReceptionPointCd } )" :reception="@JsonConvert.SerializeObject(Model)"></reception-edit-component>
+<h1>Изменение</h1>
+
+<h4>Пункт приема платежей</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="ReceptionPointCd" />
+            <div class="form-group">
+                <label asp-for="ReceptionName" class="control-label">Наименование пункта приема платежей</label>
+                <input asp-for="ReceptionName" class="form-control" />
+                <span asp-validation-for="ReceptionName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Сохранить" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
 </div>
-@section Scripts{
-    <script src="@Url.Content("~/bundle/ReceptionPoints.js")"></script>
-}
+
+<div>
+    <a asp-action="Index">Вернуться к списку</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }
 

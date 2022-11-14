@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>NachislSumma</h1>
+<h1>Начислено</h1>
 
 <style>
     th {
@@ -14,41 +14,29 @@
 </style>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Добавить новую запись</a>
 </p>
 
 <select id="IdCombobox">
-    <option>NachislSum</option>
-    <option>NachislYear</option>
-    <option>NachislMonth</option>
-    <option>NachType</option>
-    <option>CountResources</option>
-    <option>AbonentModeСdNavigation</option>
+    <option>Сумма начисления</option>
+    <option>Год начисления</option>
+    <option>Месяц начисления</option>
+    <option>Тип начисления</option>
+    <option>Количество потребленного ресурса за месяц</option>
+    <option>Лицевой счет</option>
 </select>
 
-<input type="text" id="Input" onkeyup="Search()" placeholder="Search" />
+<input type="text" id="Input" onkeyup="Search()" placeholder="Поиск" />
 
 <table id="table-id" class="table">
     <thead>
         <tr>
-            <th data-type="double">
-                @Html.DisplayNameFor(model => model.NachislSum)
-            </th>
-            <th data-type="int">
-                @Html.DisplayNameFor(model => model.NachislYear)
-            </th>
-            <th data-type="int">
-                @Html.DisplayNameFor(model => model.NachislMonth)
-            </th>
-            <th data-type="string">
-                @Html.DisplayNameFor(model => model.NachType)
-            </th>
-            <th data-type="double">
-                @Html.DisplayNameFor(model => model.CountResources)
-            </th>
-            <th data-type="int">
-                @Html.DisplayNameFor(model => model.AbonentModeСdNavigation)
-            </th>
+            <th data-type="double">Сумма начисления</th>
+            <th data-type="int">Год начисления</th>
+            <th data-type="int">Месяц начисления
+            <th data-type="string">Тип начисления</th>
+            <th data-type="double">Количество потребленного ресурса за месяц</th>
+            <th data-type="int">Лицевой счет</th>
             <th></th>
         </tr>
     </thead>
@@ -75,9 +63,9 @@
                     @Html.DisplayFor(modelItem => item.AbonentModeСdNavigation.AccountCd)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.NachislFactCd">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.NachislFactCd">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.NachislFactCd">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.NachislFactCd">Изменить</a> |
+                    <a asp-action="Details" asp-route-id="@item.NachislFactCd">Подробности</a> |
+                    <a asp-action="Delete" asp-route-id="@item.NachislFactCd">Удалить</a>
                 </td>
             </tr>
         }

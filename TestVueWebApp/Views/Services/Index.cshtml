@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Service</h1>
+<h1>Предоставляемые услуги</h1>
 
 <style>
     th {
@@ -14,25 +14,21 @@
 </style>
 
 <p>
-    <a asp-action="Create">Create New</a>
+    <a asp-action="Create">Добавить новую запись</a>
 </p>
 
 <select id="IdCombobox">
-    <option>ServiceName</option>
-    <option>UnitsCdNavigation</option>
+    <option>Наименование предоставляемой услуги</option>
+    <option>Единица измерения</option>
 </select>
 
-<input type="text" id="Input" onkeyup="Search()" placeholder="Search" />
+<input type="text" id="Input" onkeyup="Search()" placeholder="Поиск" />
 
 <table id="table-id" class="table">
     <thead>
         <tr>
-            <th data-type="string">
-                @Html.DisplayNameFor(model => model.ServiceName)
-            </th>
-            <th data-type="string">
-                @Html.DisplayNameFor(model => model.UnitsCdNavigation)
-            </th>
+            <th data-type="string">Наименование предоставляемой услуги</th>
+            <th data-type="string">Единица измерения</th>
             <th></th>
         </tr>
     </thead>
@@ -47,9 +43,9 @@
                     @Html.DisplayFor(modelItem => item.UnitsCdNavigation.UnitsName)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.ServiceCd">Edit</a> |
-                    <a asp-action="Details" asp-route-id="@item.ServiceCd">Details</a> |
-                    <a asp-action="Delete" asp-route-id="@item.ServiceCd">Delete</a>
+                    <a asp-action="Edit" asp-route-id="@item.ServiceCd">Изменить</a> |
+                    <a asp-action="Details" asp-route-id="@item.ServiceCd">Подробности</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ServiceCd">Удалить</a>
                 </td>
             </tr>
         }

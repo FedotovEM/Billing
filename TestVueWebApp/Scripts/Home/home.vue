@@ -1,6 +1,6 @@
 <template>
     <div id="home">
-        <h1>Welcome to the Utility billing subscriber accounting web application</h1>
+        <h1>Добро пожаловать в веб-приложение для выставления счетов за коммунальные услуги и учета абонентов</h1>
         <p></p>
     </div>
 
