@@ -1,13 +1,24 @@
 ﻿@model TestVueWebApp.Repository.Models.Executor
-@using Newtonsoft.Json
+
 @{
     ViewData["Title"] = "Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div id="app">
-    <executor-details-component edit-executor-url="@Url.Action("Edit", "Executors")" index-executor-url="@Url.Action("Index", "Executors")" :executor="@JsonConvert.SerializeObject(Model)"></executor-details-component>
+<h1>Подробности</h1>
+
+<div>
+    <h4>Исполнитель</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">ФИО</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.Fio)
+        </dd>
+    </dl>
 </div>
-@section Scripts{
-    <script src="@Url.Content("~/bundle/executors.js")"></script>
-}
+<div>
+    <a asp-action="Edit" asp-route-id="@Model.ExecutorCd">Изменить</a> |
+    <a asp-action="Index">Вернуться к списку</a>
+</div>
+

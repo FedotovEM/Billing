@@ -1,5 +1,5 @@
 ﻿@model IEnumerable<TestVueWebApp.Repository.Models.Disrepair>
-@using Newtonsoft.Json
+
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -10,13 +10,43 @@
     }
 </style>
 
-<div id="app">
-    <disrepair-index-component create-disrepairs-url="@Url.Action("Create")" delete-disrepairs-url="@Url.Action("Delete")"
-                               edit-disrepairs-url="@Url.Action("Edit")" details-disrepairs-url="@Url.Action("Details")" :disrepairs="@JsonConvert.SerializeObject(Model)"></disrepair-index-component>
+<div id="disrepair">
+    <h1>Неисправности</h1>
+    <p>
+        <a asp-action="Create">Добавить новую запись</a>
+    </p>
+
+    <select id="IdCombobox">
+        <option>Наименование неисправности</option>
+    </select>
+
+    <input type="text" id="Input" onkeyup="Search()" placeholder="Поиск" />
+
+    <table id="table-id" class="table">
+        <thead>
+            <tr>
+                <th data-type="string">Наименование неисправности</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+        @foreach (var item in Model)
+        { <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.FailureName)
+                </td>
+                <td>
+                        <a asp-action="Edit" asp-route-id="@item.FailureCd">Изменить</a> |
+                        <a asp-action="Details" asp-route-id="@item.FailureCd">Подробности</a> |
+                        <a asp-action="Delete" asp-route-id="@item.FailureCd">Удалить</a>
+                </td>
+          </tr>
+        }
+        </tbody>
+    </table>
+
 </div>
 
-@section Scripts{
-    <script src="@Url.Content("~/bundle/disrepairs.js")"></script>
 
     <script>
         const table = document.querySelector('table');

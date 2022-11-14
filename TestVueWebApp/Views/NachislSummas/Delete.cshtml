@@ -5,46 +5,34 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Delete</h1>
+<h1>Удаление</h1>
 
-<h3>Are you sure you want to delete this?</h3>
+<h3>Вы уверены, что хотите удалить эту запись?</h3>
 <div>
-    <h4>NachislSumma</h4>
+    <h4>Начисление</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NachislSum)
-        </dt>
+        <dt class = "col-sm-2">Сумма начисления</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.NachislSum)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NachislYear)
-        </dt>
+        <dt class = "col-sm-2">Год начисления</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.NachislYear)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NachislMonth)
-        </dt>
+        <dt class = "col-sm-2">Месяц начисления</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.NachislMonth)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.NachType)
-        </dt>
+        <dt class = "col-sm-2">Тип начисления</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.NachType)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.CountResources)
-        </dt>
+        <dt class = "col-sm-2">Количество потребленного ресурса за месяц</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.CountResources)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.AbonentModeСdNavigation)
-        </dt>
+        <dt class = "col-sm-2">Лицевой счет</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.AbonentModeСdNavigation.AccountCd)
         </dd class>
@@ -52,7 +40,7 @@
     
     <form asp-action="Delete">
         <input type="hidden" asp-for="NachislFactCd" />
-        <input type="submit" value="Delete" class="btn btn-danger" /> |
-        <a asp-action="Index">Back to List</a>
+        <input type="submit" value="Удалить" class="btn btn-danger" /> |
+        <a asp-action="Index">Вернуться к списку</a>
     </form>
 </div>
