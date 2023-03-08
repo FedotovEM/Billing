@@ -5,39 +5,51 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Подробности</h1>
+<h1>Details</h1>
 
 <div>
-    <h4>Начисление</h4>
+    <h4>NachislSumma</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">Сумма начисления</dt>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NachislSum)
+        </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.NachislSum)
         </dd>
-        <dt class = "col-sm-2">Год начисления</dt>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NachislYear)
+        </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.NachislYear)
         </dd>
-        <dt class = "col-sm-2">Месяц начисления</dt>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NachislMonth)
+        </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.NachislMonth)
         </dd>
-        <dt class = "col-sm-2">Тип начисления</dt>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.NachType)
+        </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.NachType)
         </dd>
-        <dt class = "col-sm-2">Количество потребленного ресурса за месяц</dt>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.CountResources)
+        </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.CountResources)
         </dd>
-        <dt class = "col-sm-2">Лицевой счет</dt>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.AbonentModeСdNavigation)
+        </dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.AbonentModeСdNavigation.AccountCd)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.NachislFactCd">Изменить</a> |
-    <a asp-action="Index">Вернуться к списку</a>
+    <a asp-action="Edit" asp-route-id="@Model.NachislFactCd">Edit</a> |
+    <a asp-action="Index">Back to List</a>
 </div>

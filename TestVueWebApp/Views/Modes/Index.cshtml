@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Режимы потребления</h1>
+<h1>Mode</h1>
 
 <style>
     th {
@@ -14,23 +14,29 @@
 </style>
 
 <p>
-    <a asp-action="Create">Добавить новую запись</a>
+    <a asp-action="Create">Create New</a>
 </p>
 
 <select id="IdCombobox">
-    <option>Наименование режима потребеления</option>
-    <option>Нормативный объем коммунального ресурса</option>
-    <option>Наименование предоставляемой услуги</option>
+    <option>ModeName</option>
+    <option>Norma</option>
+    <option>ServiceCdNavigation</option>
 </select>
 
-<input type="text" id="Input" onkeyup="Search()" placeholder="Поиск" />
+<input type="text" id="Input" onkeyup="Search()" placeholder="Search" />
 
 <table id="table-id" class="table">
     <thead>
         <tr>
-            <th data-type="string">Наименование режима потребеления</th>
-            <th data-type="double">Нормативный объем коммунального ресурса</th>
-            <th data-type="string">Наименование предоставляемой услуги</th>
+            <th data-type="string">
+                @Html.DisplayNameFor(model => model.ModeName)
+            </th>
+            <th data-type="double">
+                @Html.DisplayNameFor(model => model.Norma)
+            </th>
+            <th data-type="string">
+                @Html.DisplayNameFor(model => model.ServiceCdNavigation)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -48,9 +54,9 @@
                     @Html.DisplayFor(modelItem => item.ServiceCdNavigation.ServiceName)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.ModeCd">Изменить</a> |
-                    <a asp-action="Details" asp-route-id="@item.ModeCd">Подробности</a> |
-                    <a asp-action="Delete" asp-route-id="@item.ModeCd">Удалить</a>
+                    <a asp-action="Edit" asp-route-id="@item.ModeCd">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.ModeCd">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ModeCd">Delete</a>
                 </td>
             </tr>
         }

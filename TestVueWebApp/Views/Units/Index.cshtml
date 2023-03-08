@@ -1,5 +1,5 @@
 ﻿@model IEnumerable<TestVueWebApp.Repository.Models.Unit>
-
+@using Newtonsoft.Json
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -10,41 +10,13 @@
     }
 </style>
 
-<h1>Единицы измерения</h1>
-<p>
-    <a asp-action="Create">Добавить новую запись</a>
-</p>
+<div id="app">
+    <unit-index-component create-unit-url="@Url.Action("Create")" delete-unit-url="@Url.Action("Delete")"
+                          edit-unit-url="@Url.Action("Edit")" details-unit-url="@Url.Action("Details")" :units="@JsonConvert.SerializeObject(Model)"></unit-index-component>
+</div>
 
-<select id="IdCombobox">
-    <option>Наименование единицы измерения</option>
-</select>
-
-<input type="text" id="Input" onkeyup="Search()" placeholder="Поиск" />
-
-<table id="table-id" class="table">
-    <thead>
-        <tr>
-            <th data-type="string">Наименование единицы измерения</th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        @foreach (var item in Model)
-        {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.UnitsName)
-                </td>
-                <td>
-                    <a asp-action="Edit" asp-route-id="@item.UnitCd">Изменить</a> |
-                    <a asp-action="Details" asp-route-id="@item.UnitCd">Подробности</a> |
-                    <a asp-action="Delete" asp-route-id="@item.UnitCd">Удалить</a>
-                </td>
-            </tr>
-        }
-    </tbody>
-</table>
-
+@section Scripts{
+    <script src="@Url.Content("~/bundle/Units.js")"></script>
 
     <script>
         const table = document.querySelector('table');

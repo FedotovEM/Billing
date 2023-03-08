@@ -1,37 +1,13 @@
 ﻿@model TestVueWebApp.Repository.Models.Executor
-
+@using Newtonsoft.Json
 @{
     ViewData["Title"] = "Edit";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Изменение</h1>
-
-<h4>Исполнитель</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="ExecutorCd" />
-            <div class="form-group">
-                <label asp-for="Fio" class="control-label">ФИО</label>
-                <input asp-for="Fio" class="form-control" />
-                <span asp-validation-for="Fio" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Сохранить" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
+<div id="app">
+    <executor-edit-component edit-executor-url="@Url.Action("Edit", "Executors", new { ExecutorCd = Model.ExecutorCd } )" :executor="@JsonConvert.SerializeObject(Model)"></executor-edit-component>
 </div>
-
-<div>
-    <a asp-action="Index">Вернуться к списку</a>
-</div>
-
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-    }
+@section Scripts{
+    <script src="@Url.Content("~/bundle/executors.js")"></script>
+}

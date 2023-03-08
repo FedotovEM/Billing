@@ -1,37 +1,13 @@
 ﻿@model TestVueWebApp.Repository.Models.Unit
-
+@using Newtonsoft.Json
 @{
     ViewData["Title"] = "Edit";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Изменение</h1>
-
-<h4>Единица измерения</h4>
-<hr />
-<div class="row">
-    <div class="col-md-4">
-        <form asp-action="Edit">
-            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
-            <input type="hidden" asp-for="UnitCd" />
-            <div class="form-group">
-                <label asp-for="UnitsName" class="control-label">Наименование единицы измерения</label>
-                <input asp-for="UnitsName" class="form-control" />
-                <span asp-validation-for="UnitsName" class="text-danger"></span>
-            </div>
-            <div class="form-group">
-                <input type="submit" value="Сохранить" class="btn btn-primary" />
-            </div>
-        </form>
-    </div>
+<div id="app">
+    <unit-edit-component edit-unit-url="@Url.Action("Edit", "Units", new { UnitCd = Model.UnitCd } )" :unit="@JsonConvert.SerializeObject(Model)"></unit-edit-component>
 </div>
-
-<div>
-    <a asp-action="Index">Вернуться к списку</a>
-</div>
-
-@section Scripts {
-    @{
-        await Html.RenderPartialAsync("_ValidationScriptsPartial");
-    }
-    }
+@section Scripts{
+    <script src="@Url.Content("~/bundle/Units.js")"></script>
+}

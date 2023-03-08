@@ -1,23 +1,13 @@
 ﻿@model TestVueWebApp.Repository.Models.Disrepair
-
+@using Newtonsoft.Json
 @{
     ViewData["Title"] = "Details";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Подробности</h1>
-
-<div>
-    <h4>Неисправность</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">Наименование неисправности</dt>
-        <dd class="col-sm-10">
-            @Html.DisplayFor(model => model.FailureName)
-        </dd>
-    </dl>
+<div id="app">
+    <disrepair-details-component edit-disrepair-url="@Url.Action("Edit", "Disrepairs")" index-disrepair-url="@Url.Action("Index", "Disrepairs")" :disrepair="@JsonConvert.SerializeObject(Model)"></disrepair-details-component>
 </div>
-<div>
-    <a asp-action="Edit" asp-route-id="@Model.FailureCd">Изменить</a> |
-    <a asp-action="Index">Вернуться к списку</a>
-</div>
+@section Scripts{
+    <script src="@Url.Content("~/bundle/disrepairs.js")"></script>
+}

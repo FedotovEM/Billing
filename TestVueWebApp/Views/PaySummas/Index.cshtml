@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Оплачено</h1>
+<h1>PaySumma</h1>
 
 <style>
     th {
@@ -14,31 +14,45 @@
 </style>
 
 <p>
-    <a asp-action="Create">Добавить новую запись</a>
+    <a asp-action="Create">Create New</a>
 </p>
 
 <select id="IdCombobox">
-    <option>Сумма оплаты</option>
-    <option>Дата оплаты</option>
-    <option>Номер оплачиваемого месяца</option>
-    <option>Оплачиваемый год</option>
-    <option>Тип оплаты</option>
-    <option>Лицевой счет</option>
-    <option>Код пункта приема платежей</option>
+    <option>PaySum</option>
+    <option>PayDate</option>
+    <option>PayMonth</option>
+    <option>PayYear</option>
+    <option>PayType</option>
+    <option>AbonentModeСdNavigation</option>
+    <option>ReceptionPointCdNavigation</option>
 </select>
 
-<input type="text" id="Input" onkeyup="Search()" placeholder="Поиск" />
+<input type="text" id="Input" onkeyup="Search()" placeholder="Search" />
 
 <table id="table-id" class="table">
     <thead>
         <tr>
-            <th data-type="double">Сумма оплаты</th>
-            <th data-type="date">Дата оплаты</th>
-            <th data-type="int">Номер оплачиваемого месяца</th>
-            <th data-type="int">Оплачиваемый год</th>
-            <th data-type="string">Тип оплаты</th>
-            <th data-type="string">Лицевой счет</th>
-            <th data-type="string">Код пункта приема платежей</th>
+            <th data-type="double">
+                @Html.DisplayNameFor(model => model.PaySum)
+            </th>
+            <th data-type="date">
+                @Html.DisplayNameFor(model => model.PayDate)
+            </th>
+            <th data-type="int">
+                @Html.DisplayNameFor(model => model.PayMonth)
+            </th>
+            <th data-type="int">
+                @Html.DisplayNameFor(model => model.PayYear)
+            </th>
+            <th data-type="string">
+                @Html.DisplayNameFor(model => model.PayType)
+            </th>
+            <th data-type="string">
+                @Html.DisplayNameFor(model => model.AbonentModeСdNavigation)
+            </th>
+            <th data-type="string">
+                @Html.DisplayNameFor(model => model.ReceptionPointCdNavigation)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -68,9 +82,9 @@
                     @Html.DisplayFor(modelItem => item.ReceptionPointCdNavigation.ReceptionName)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.PayFactCd">Изменить</a> |
-                    <a asp-action="Details" asp-route-id="@item.PayFactCd">Подробности</a> |
-                    <a asp-action="Delete" asp-route-id="@item.PayFactCd">Удалить</a>
+                    <a asp-action="Edit" asp-route-id="@item.PayFactCd">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.PayFactCd">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.PayFactCd">Delete</a>
                 </td>
             </tr>
         }

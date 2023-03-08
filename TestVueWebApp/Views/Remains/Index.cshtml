@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Сальдо</h1>
+<h1>Remain</h1>
 
 <style>
     th {
@@ -14,27 +14,37 @@
 </style>
 
 <p>
-    <a asp-action="Create">Добавить новую запись</a>
+    <a asp-action="Create">Create New</a>
 </p>
 
 <select id="IdCombobox">
-    <option>Месяц расчета остатка</option>
-    <option>Год расчета остатка</option>
-    <option>Сумма остатка</option>
-    <option>Лицевой счет</option>
-    <option>Наименование услуги</option>
+    <option>Remmonth</option>
+    <option>Remyear</option>
+    <option>Remainsum</option>
+    <option>AccountCdNavigation</option>
+    <option>ServiceCdNavigation</option>
 </select>
 
-<input type="text" id="Input" onkeyup="Search()" placeholder="Поиск" />
+<input type="text" id="Input" onkeyup="Search()" placeholder="Search" />
 
 <table id="table-id" class="table">
     <thead>
         <tr>
-            <th data-type="int">Месяц расчета остатка</th>
-            <th data-type="int">Год расчета остатка</th>
-            <th data-type="double">Сумма остатка</th>
-            <th data-type="int">Лицевой счет</th>
-            <th data-type="string">Наименование услуги</th>
+            <th data-type="int">
+                @Html.DisplayNameFor(model => model.Remmonth)
+            </th>
+            <th data-type="int">
+                @Html.DisplayNameFor(model => model.Remyear)
+            </th>
+            <th data-type="double">
+                @Html.DisplayNameFor(model => model.Remainsum)
+            </th>
+            <th data-type="int">
+                @Html.DisplayNameFor(model => model.AccountCdNavigation)
+            </th>
+            <th data-type="string">
+                @Html.DisplayNameFor(model => model.ServiceCdNavigation)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -58,9 +68,9 @@
                     @Html.DisplayFor(modelItem => item.ServiceCdNavigation.ServiceName)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.RemainCd">Изменить</a> |
-                    <a asp-action="Details" asp-route-id="@item.RemainCd">Подробности</a> |
-                    <a asp-action="Delete" asp-route-id="@item.RemainCd">Удалить</a>
+                    <a asp-action="Edit" asp-route-id="@item.RemainCd">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.RemainCd">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.RemainCd">Delete</a>
                 </td>
             </tr>
         }

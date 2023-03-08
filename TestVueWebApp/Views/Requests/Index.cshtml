@@ -5,7 +5,7 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Заявки на ремонт</h1>
+<h1>Request</h1>
 
 <style>
     th {
@@ -14,29 +14,41 @@
 </style>
 
 <p>
-    <a asp-action="Create">Добавить новую запись</a>
+    <a asp-action="Create">Create New</a>
 </p>
 
 <select id="IdCombobox">
-    <option>Лицевой счет</option>
-    <option>Наименование причины заявки</option>    
-    <option>Дата поступления заявки</option>
-    <option>Дата выполнения заявки</option>
-    <option>Исполнитель заявки</option>
-    <option>Признак погашения заявки</option>
+    <option>FailureCdNavigation</option>
+    <option>AccountCdNavigation</option>
+    <option>IncomingDate</option>
+    <option>ExecutionDate</option>
+    <option>ExecutorCdNavigation</option>
+    <option>Executed</option>
 </select>
 
-<input type="text" id="Input" onkeyup="Search()" placeholder="Поиск" />
+<input type="text" id="Input" onkeyup="Search()" placeholder="Search" />
 
 <table id="table-id" class="table">
     <thead>
         <tr>
-            <th data-type="int">Лицевой счет</th>
-            <th data-type="string">Наименование причины заявки</th>            
-            <th data-type="date">Дата поступления заявки</th>
-            <th data-type="date">Дата выполнения заявки</th>
-            <th data-type="string">Исполнитель заявки</th>
-            <th>Признак погашения заявки</th>
+            <th data-type="string">
+                @Html.DisplayNameFor(model => model.FailureCdNavigation)
+            </th>
+            <th data-type="int">
+                @Html.DisplayNameFor(model => model.AccountCdNavigation)
+            </th>
+            <th data-type="date">
+                @Html.DisplayNameFor(model => model.IncomingDate)
+            </th>
+            <th data-type="date">
+                @Html.DisplayNameFor(model => model.ExecutionDate)
+            </th>
+            <th data-type="string">
+                @Html.DisplayNameFor(model => model.ExecutorCdNavigation)
+            </th>
+            <th>
+                @Html.DisplayNameFor(model => model.Executed)
+            </th>
             <th></th>
         </tr>
     </thead>
@@ -45,16 +57,17 @@
         {
             <tr>
                 <td>
-                    @Html.DisplayFor(modelItem => item.AccountCdNavigation.AccountCd)
+                    @Html.DisplayFor(modelItem => item.FailureCdNavigation.FailureName)
                 </td>
                 <td>
-                    @Html.DisplayFor(modelItem => item.FailureCdNavigation.FailureName)
-                </td>                
+                    @Html.DisplayFor(modelItem => item.AccountCdNavigation.AccountCd)
+                </td>
                 <td>
                     @item.IncomingDate.ToShortDateString()
                 </td>
                 <td>
                     @item.ExecutionDate
+                    }
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.ExecutorCdNavigation.Fio)
@@ -63,9 +76,9 @@
                     @Html.DisplayFor(modelItem => item.Executed)
                 </td>
                 <td>
-                    <a asp-action="Edit" asp-route-id="@item.RequestCd">Изменить</a> |
-                    <a asp-action="Details" asp-route-id="@item.RequestCd">Подробности</a> |
-                    <a asp-action="Delete" asp-route-id="@item.RequestCd">Удалить</a>
+                    <a asp-action="Edit" asp-route-id="@item.RequestCd">Edit</a> |
+                    <a asp-action="Details" asp-route-id="@item.RequestCd">Details</a> |
+                    <a asp-action="Delete" asp-route-id="@item.RequestCd">Delete</a>
                 </td>
             </tr>
         }
