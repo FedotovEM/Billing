@@ -1,13 +1,37 @@
 ﻿@model TestVueWebApp.Repository.Models.Street
-@using Newtonsoft.Json
+
 @{
     ViewData["Title"] = "Edit";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div id="app">
-    <edit-component edit-street-url="@Url.Action("Edit", "Streets", new { StreetCd = Model.StreetCd } )" :street="@JsonConvert.SerializeObject(Model)"></edit-component>
+<h1>Изменение</h1>
+
+<h4>Улица</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Edit">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <input type="hidden" asp-for="StreetCd" />
+            <div class="form-group">
+                <label asp-for="StreetName" class="control-label">Наименование улицы</label>
+                <input asp-for="StreetName" class="form-control" />
+                <span asp-validation-for="StreetName" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Сохранить" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
 </div>
-@section Scripts{
-    <script src="@Url.Content("~/bundle/streets.js")"></script>
-}
+
+<div>
+    <a asp-action="Index">Вернуться к списку</a>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+    }

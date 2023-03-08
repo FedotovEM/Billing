@@ -5,57 +5,43 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Details</h1>
+<h1>Подробности</h1>
 
 <div>
-    <h4>PaySumma</h4>
+    <h4>Оплата</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PaySum)
-        </dt>
+        <dt class = "col-sm-2">Сумма оплаты</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.PaySum)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PayDate)
-        </dt>
+        <dt class = "col-sm-2">Дата оплаты</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.PayDate)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PayMonth)
-        </dt>
+        <dt class = "col-sm-2">Номер оплачиваемого месяца</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.PayMonth)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PayYear)
-        </dt>
+        <dt class = "col-sm-2">Оплачиваемый год</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.PayYear)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.PayType)
-        </dt>
+        <dt class = "col-sm-2">Тип оплаты</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.PayType)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.AbonentModeСdNavigation)
-        </dt>
+        <dt class = "col-sm-2">Лицевой счет</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.AbonentModeСdNavigation.AccountCd)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ReceptionPointCdNavigation)
-        </dt>
+        <dt class = "col-sm-2">Код пункта приема платежей</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.ReceptionPointCdNavigation.ReceptionName)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.PayFactCd">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model.PayFactCd">Изменить</a> |
+    <a asp-action="Index">Вернуться к списку</a>
 </div>

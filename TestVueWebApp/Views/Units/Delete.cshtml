@@ -5,9 +5,23 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div id="app">
-    <unit-delete-component delete-unit-url="@Url.Action("Delete", "Units")" index-unit-url="@Url.Action("Index", "Units")" :unit="@JsonConvert.SerializeObject(Model)"></unit-delete-component>
+<h1>Удаление</h1>
+
+<h3>Вы уверены, что хотите удалить эту запись?</h3>
+<div>
+    <h4>Единица измерения</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Наименование единицы измерения</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.UnitsName)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="UnitCd" />
+        <input type="submit" value="Удалить" class="btn btn-danger" /> |
+        <a asp-action="Index">Вернуться к списку</a>
+    </form>
 </div>
-@section Scripts{
-    <script src="@Url.Content("~/bundle/Units.js")"></script>
-}
+

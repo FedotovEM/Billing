@@ -5,45 +5,35 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Details</h1>
+<h1>Подробности</h1>
 
 <div>
-    <h4>Remain</h4>
+    <h4>Сальдо</h4>
     <hr />
     <dl class="row">
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Remmonth)
-        </dt>
+        <dt class = "col-sm-2">Месяц расчета остатка</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Remmonth)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Remyear)
-        </dt>
+        <dt class = "col-sm-2">Год расчета остатка</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Remyear)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.Remainsum)
-        </dt>
+        <dt class = "col-sm-2">Сумма остатка</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.Remainsum)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.AccountCdNavigation)
-        </dt>
+        <dt class = "col-sm-2">Лицевой счет</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.AccountCdNavigation.AccountCd)
         </dd>
-        <dt class = "col-sm-2">
-            @Html.DisplayNameFor(model => model.ServiceCdNavigation)
-        </dt>
+        <dt class = "col-sm-2">Наименование услуги</dt>
         <dd class = "col-sm-10">
             @Html.DisplayFor(model => model.ServiceCdNavigation.ServiceName)
         </dd>
     </dl>
 </div>
 <div>
-    <a asp-action="Edit" asp-route-id="@Model.RemainCd">Edit</a> |
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Edit" asp-route-id="@Model.RemainCd">Изменить</a> |
+    <a asp-action="Index">Вернуться к списку</a>
 </div>

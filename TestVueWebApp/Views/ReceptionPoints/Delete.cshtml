@@ -1,13 +1,26 @@
 ﻿@model TestVueWebApp.Repository.Models.ReceptionPoint
-@using Newtonsoft.Json
+
 @{
     ViewData["Title"] = "Delete";
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<div id="app">
-    <reception-delete-component delete-reception-url="@Url.Action("Delete", "ReceptionPoints")" index-reception-url="@Url.Action("Index", "ReceptionPoints")" :reception="@JsonConvert.SerializeObject(Model)"></reception-delete-component>
+<h1>Удаление</h1>
+
+<h3>Вы уверены, что хотите удалить эту запись?</h3>
+<div>
+    <h4>Пункт приема платежей</h4>
+    <hr />
+    <dl class="row">
+        <dt class="col-sm-2">Наименование пункта приема платежей</dt>
+        <dd class="col-sm-10">
+            @Html.DisplayFor(model => model.ReceptionName)
+        </dd>
+    </dl>
+
+    <form asp-action="Delete">
+        <input type="hidden" asp-for="ReceptionPointCd" />
+        <input type="submit" value="Удалить" class="btn btn-danger" /> |
+        <a asp-action="Index">Вернуться к списку</a>
+    </form>
 </div>
-@section Scripts{
-    <script src="@Url.Content("~/bundle/ReceptionPoints.js")"></script>
-}

@@ -1,5 +1,5 @@
 ﻿@model IEnumerable<TestVueWebApp.Repository.Models.Executor>
-@using Newtonsoft.Json
+
 @{
     ViewData["Title"] = "Index";
     Layout = "~/Views/Shared/_Layout.cshtml";
@@ -10,13 +10,41 @@
     }
 </style>
 
-<div id="app">
-    <executor-index-component create-executor-url="@Url.Action("Create")" delete-executor-url="@Url.Action("Delete")"
-                              edit-executor-url="@Url.Action("Edit")" details-executor-url="@Url.Action("Details")" :executors="@JsonConvert.SerializeObject(Model)"></executor-index-component>
-</div>
+<h1>Исполнители</h1>
+<p>
+    <a asp-action="Create">Добавить новую запись</a>
+</p>
 
-@section Scripts{
-    <script src="@Url.Content("~/bundle/executors.js")"></script>
+<select id="IdCombobox">
+    <option>ФИО</option>
+</select>
+
+<input type="text" id="Input" onkeyup="Search()" placeholder="Поиск" />
+
+<table id="table-id" class="table">
+    <thead>
+        <tr>
+            <th data-type="string">ФИО</th>
+            <th></th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>
+                    @Html.DisplayFor(modelItem => item.Fio)
+                </td>
+                <td>
+                    <a asp-action="Edit" asp-route-id="@item.ExecutorCd">Изменить</a> |
+                    <a asp-action="Details" asp-route-id="@item.ExecutorCd">Подробности</a> |
+                    <a asp-action="Delete" asp-route-id="@item.ExecutorCd">Удалить</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
 
     <script>
         const table = document.querySelector('table');

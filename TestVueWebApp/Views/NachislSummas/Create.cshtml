@@ -5,52 +5,52 @@
     Layout = "~/Views/Shared/_Layout.cshtml";
 }
 
-<h1>Create</h1>
+<h1>Добавление новой записи</h1>
 
-<h4>NachislSumma</h4>
+<h4>Начисление</h4>
 <hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
             <div asp-validation-summary="ModelOnly" class="text-danger"></div>
             <div class="form-group">
-                <label asp-for="NachislSum" class="control-label"></label>
+                <label asp-for="NachislSum" class="control-label">Сумма начисления</label>
                 <input asp-for="NachislSum" class="form-control" />
                 <span asp-validation-for="NachislSum" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="NachislYear" class="control-label"></label>
+                <label asp-for="NachislYear" class="control-label">Год начисления</label>
                 <input asp-for="NachislYear" class="form-control" />
                 <span asp-validation-for="NachislYear" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="NachislMonth" class="control-label"></label>
+                <label asp-for="NachislMonth" class="control-label">Месяц начисления</label>
                 <input asp-for="NachislMonth" class="form-control" />
                 <span asp-validation-for="NachislMonth" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="NachType" class="control-label"></label>
+                <label asp-for="NachType" class="control-label">Тип начисления</label>
                 <input asp-for="NachType" class="form-control" />
                 <span asp-validation-for="NachType" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <label asp-for="AbonentModeСd" class="control-label"></label>
+                <label asp-for="AbonentModeСd" class="control-label">Лицевой счет</label>
                 <select asp-for="AbonentModeСd" class ="form-control" asp-items="ViewBag.AbonentModeСd"></select>
             </div>
             <div class="form-group">
-                <label asp-for="CountResources" class="control-label"></label>
+                <label asp-for="CountResources" class="control-label">Количество потребленного ресурса за месяц</label>
                 <input asp-for="CountResources" class="form-control" />
                 <span asp-validation-for="CountResources" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Создать" class="btn btn-primary" />
             </div>
         </form>
     </div>
 </div>
 
 <div>
-    <a asp-action="Index">Back to List</a>
+    <a asp-action="Index">Вернуться к списку</a>
 </div>
 
 @section Scripts {
