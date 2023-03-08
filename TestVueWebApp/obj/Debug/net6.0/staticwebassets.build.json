@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "Q1WMmJkqrpSSO/wEwH4Bm17h3wVEVu76kOCpHbw31OE=",
+  "Hash": "AXO/l+gGHHn1kDXZ3DFlWQ8WCUG/kk54x4VLCwVA/VQ=",
   "Source": "TestVueWebApp",
   "BasePath": "_content/TestVueWebApp",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "TestVueWebApp\\wwwroot",
       "Source": "TestVueWebApp",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\bundle\\Abonents.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\bundle\\Abonents.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "bundle/Abonents.js",
       "AssetKind": "All",
@@ -34,10 +34,10 @@
       "OriginalItemSpec": "wwwroot\\bundle\\Abonents.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\bundle\\Disrepairs.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\bundle\\Disrepairs.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "bundle/Disrepairs.js",
       "AssetKind": "All",
@@ -51,10 +51,10 @@
       "OriginalItemSpec": "wwwroot\\bundle\\Disrepairs.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\bundle\\Executors.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\bundle\\Executors.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "bundle/Executors.js",
       "AssetKind": "All",
@@ -68,10 +68,10 @@
       "OriginalItemSpec": "wwwroot\\bundle\\Executors.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\bundle\\Home.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\bundle\\Home.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "bundle/Home.js",
       "AssetKind": "All",
@@ -85,10 +85,10 @@
       "OriginalItemSpec": "wwwroot\\bundle\\Home.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\bundle\\ReceptionPoints.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\bundle\\ReceptionPoints.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "bundle/ReceptionPoints.js",
       "AssetKind": "All",
@@ -102,10 +102,10 @@
       "OriginalItemSpec": "wwwroot\\bundle\\ReceptionPoints.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\bundle\\Streets.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\bundle\\Streets.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "bundle/Streets.js",
       "AssetKind": "All",
@@ -119,10 +119,10 @@
       "OriginalItemSpec": "wwwroot\\bundle\\Streets.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\bundle\\Units.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\bundle\\Units.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "bundle/Units.js",
       "AssetKind": "All",
@@ -136,10 +136,10 @@
       "OriginalItemSpec": "wwwroot\\bundle\\Units.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\css\\site.css",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\css\\site.css",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "css/site.css",
       "AssetKind": "All",
@@ -153,10 +153,10 @@
       "OriginalItemSpec": "wwwroot\\css\\site.css"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\favicon.ico",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\favicon.ico",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "favicon.ico",
       "AssetKind": "All",
@@ -170,10 +170,10 @@
       "OriginalItemSpec": "wwwroot\\favicon.ico"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\js\\site.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\js\\site.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "js/site.js",
       "AssetKind": "All",
@@ -187,10 +187,10 @@
       "OriginalItemSpec": "wwwroot\\js\\site.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css",
       "AssetKind": "All",
@@ -204,10 +204,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.css.map",
       "AssetKind": "All",
@@ -221,10 +221,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css",
       "AssetKind": "All",
@@ -238,10 +238,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap.min.css.map",
       "AssetKind": "All",
@@ -255,10 +255,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css",
       "AssetKind": "All",
@@ -272,10 +272,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.css.map",
       "AssetKind": "All",
@@ -289,10 +289,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css",
       "AssetKind": "All",
@@ -306,10 +306,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-grid.min.css.map",
       "AssetKind": "All",
@@ -323,10 +323,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.css.map",
       "AssetKind": "All",
@@ -357,10 +357,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css",
       "AssetKind": "All",
@@ -374,10 +374,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/css/bootstrap-reboot.min.css.map",
       "AssetKind": "All",
@@ -391,10 +391,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js",
       "AssetKind": "All",
@@ -408,10 +408,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.js.map",
       "AssetKind": "All",
@@ -425,10 +425,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js",
       "AssetKind": "All",
@@ -442,10 +442,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.bundle.min.js.map",
       "AssetKind": "All",
@@ -459,10 +459,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js",
       "AssetKind": "All",
@@ -476,10 +476,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.js.map",
       "AssetKind": "All",
@@ -493,10 +493,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js",
       "AssetKind": "All",
@@ -510,10 +510,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/dist/js/bootstrap.min.js.map",
       "AssetKind": "All",
@@ -527,10 +527,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\bootstrap\\LICENSE",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/bootstrap/LICENSE",
       "AssetKind": "All",
@@ -544,10 +544,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\bootstrap\\LICENSE"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\CHANGELOG.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\CHANGELOG.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/CHANGELOG.md",
       "AssetKind": "All",
@@ -561,10 +561,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\CHANGELOG.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\DCO.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\DCO.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/DCO.md",
       "AssetKind": "All",
@@ -578,10 +578,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\DCO.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\dist\\cldr.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\dist\\cldr.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/dist/cldr.js",
       "AssetKind": "All",
@@ -595,10 +595,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\dist\\cldr.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\dist\\cldr\\event.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\dist\\cldr\\event.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/dist/cldr/event.js",
       "AssetKind": "All",
@@ -612,10 +612,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\dist\\cldr\\event.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\dist\\cldr\\supplemental.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\dist\\cldr\\supplemental.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/dist/cldr/supplemental.js",
       "AssetKind": "All",
@@ -629,10 +629,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\dist\\cldr\\supplemental.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\dist\\cldr\\unresolved.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\dist\\cldr\\unresolved.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/dist/cldr/unresolved.js",
       "AssetKind": "All",
@@ -646,10 +646,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\dist\\cldr\\unresolved.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\dist\\node_main.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\dist\\node_main.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/dist/node_main.js",
       "AssetKind": "All",
@@ -663,10 +663,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\dist\\node_main.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\core\\attributes.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\core\\attributes.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/api/core/attributes.md",
       "AssetKind": "All",
@@ -680,10 +680,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\api\\core\\attributes.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\core\\constructor.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\core\\constructor.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/api/core/constructor.md",
       "AssetKind": "All",
@@ -697,10 +697,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\api\\core\\constructor.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\core\\get.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\core\\get.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/api/core/get.md",
       "AssetKind": "All",
@@ -714,10 +714,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\api\\core\\get.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\core\\load.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\core\\load.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/api/core/load.md",
       "AssetKind": "All",
@@ -731,10 +731,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\api\\core\\load.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\core\\main.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\core\\main.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/api/core/main.md",
       "AssetKind": "All",
@@ -748,10 +748,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\api\\core\\main.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\event\\event_get.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\event\\event_get.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/api/event/event_get.md",
       "AssetKind": "All",
@@ -765,10 +765,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\api\\event\\event_get.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\event\\global_off.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\event\\global_off.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/api/event/global_off.md",
       "AssetKind": "All",
@@ -782,10 +782,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\api\\event\\global_off.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\event\\global_on.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\event\\global_on.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/api/event/global_on.md",
       "AssetKind": "All",
@@ -799,10 +799,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\api\\event\\global_on.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\event\\global_once.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\event\\global_once.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/api/event/global_once.md",
       "AssetKind": "All",
@@ -816,10 +816,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\api\\event\\global_once.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\event\\off.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\event\\off.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/api/event/off.md",
       "AssetKind": "All",
@@ -833,10 +833,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\api\\event\\off.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\event\\on.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\event\\on.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/api/event/on.md",
       "AssetKind": "All",
@@ -850,10 +850,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\api\\event\\on.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\event\\once.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\event\\once.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/api/event/once.md",
       "AssetKind": "All",
@@ -867,10 +867,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\api\\event\\once.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\supplemental.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\supplemental.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/api/supplemental.md",
       "AssetKind": "All",
@@ -884,10 +884,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\api\\supplemental.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\supplemental\\time_data_allowed.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\supplemental\\time_data_allowed.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/api/supplemental/time_data_allowed.md",
       "AssetKind": "All",
@@ -901,10 +901,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\api\\supplemental\\time_data_allowed.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\supplemental\\time_data_preferred.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\supplemental\\time_data_preferred.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/api/supplemental/time_data_preferred.md",
       "AssetKind": "All",
@@ -918,10 +918,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\api\\supplemental\\time_data_preferred.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\supplemental\\week_data_first_day.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\supplemental\\week_data_first_day.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/api/supplemental/week_data_first_day.md",
       "AssetKind": "All",
@@ -935,10 +935,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\api\\supplemental\\week_data_first_day.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\supplemental\\week_data_min_days.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\supplemental\\week_data_min_days.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/api/supplemental/week_data_min_days.md",
       "AssetKind": "All",
@@ -952,10 +952,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\api\\supplemental\\week_data_min_days.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\unresolved\\get.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\api\\unresolved\\get.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/api/unresolved/get.md",
       "AssetKind": "All",
@@ -969,10 +969,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\api\\unresolved\\get.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\asset\\jquery.png",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\asset\\jquery.png",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/asset/jquery.png",
       "AssetKind": "All",
@@ -986,10 +986,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\asset\\jquery.png"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\bundle_lookup_matcher.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\doc\\bundle_lookup_matcher.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/doc/bundle_lookup_matcher.md",
       "AssetKind": "All",
@@ -1003,10 +1003,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\doc\\bundle_lookup_matcher.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\LICENSE-MIT",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\LICENSE-MIT",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/LICENSE-MIT",
       "AssetKind": "All",
@@ -1020,10 +1020,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\LICENSE-MIT"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\package.json",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\package.json",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/package.json",
       "AssetKind": "All",
@@ -1037,10 +1037,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\package.json"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\README.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\cldrjs\\README.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/cldrjs/README.md",
       "AssetKind": "All",
@@ -1054,10 +1054,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\cldrjs\\README.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\CONTRIBUTING.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\CONTRIBUTING.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/CONTRIBUTING.md",
       "AssetKind": "All",
@@ -1071,10 +1071,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\CONTRIBUTING.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/dist/globalize.js",
       "AssetKind": "All",
@@ -1088,10 +1088,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\currency.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\currency.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/dist/globalize/currency.js",
       "AssetKind": "All",
@@ -1105,10 +1105,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize\\currency.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\date.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\date.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/dist/globalize/date.js",
       "AssetKind": "All",
@@ -1122,10 +1122,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize\\date.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\message.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\message.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/dist/globalize/message.js",
       "AssetKind": "All",
@@ -1139,10 +1139,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize\\message.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\number.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\number.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/dist/globalize/number.js",
       "AssetKind": "All",
@@ -1156,10 +1156,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize\\number.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\plural.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\plural.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/dist/globalize/plural.js",
       "AssetKind": "All",
@@ -1173,10 +1173,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize\\plural.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\relative-time.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\relative-time.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/dist/globalize/relative-time.js",
       "AssetKind": "All",
@@ -1190,10 +1190,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize\\relative-time.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\unit.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize\\unit.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/dist/globalize/unit.js",
       "AssetKind": "All",
@@ -1207,10 +1207,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize\\unit.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/dist/globalize-runtime.js",
       "AssetKind": "All",
@@ -1224,10 +1224,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize-runtime.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\currency.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\currency.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/dist/globalize-runtime/currency.js",
       "AssetKind": "All",
@@ -1241,10 +1241,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize-runtime\\currency.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\date.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\date.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/dist/globalize-runtime/date.js",
       "AssetKind": "All",
@@ -1258,10 +1258,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize-runtime\\date.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\message.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\message.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/dist/globalize-runtime/message.js",
       "AssetKind": "All",
@@ -1275,10 +1275,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize-runtime\\message.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\number.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\number.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/dist/globalize-runtime/number.js",
       "AssetKind": "All",
@@ -1292,10 +1292,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize-runtime\\number.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\plural.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\plural.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/dist/globalize-runtime/plural.js",
       "AssetKind": "All",
@@ -1309,10 +1309,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize-runtime\\plural.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\relative-time.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\relative-time.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/dist/globalize-runtime/relative-time.js",
       "AssetKind": "All",
@@ -1326,10 +1326,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize-runtime\\relative-time.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\unit.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\globalize-runtime\\unit.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/dist/globalize-runtime/unit.js",
       "AssetKind": "All",
@@ -1343,10 +1343,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\globalize-runtime\\unit.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\node-main.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\dist\\node-main.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/dist/node-main.js",
       "AssetKind": "All",
@@ -1360,10 +1360,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\dist\\node-main.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\core\\constructor.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\core\\constructor.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/api/core/constructor.md",
       "AssetKind": "All",
@@ -1377,10 +1377,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\api\\core\\constructor.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\core\\load.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\core\\load.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/api/core/load.md",
       "AssetKind": "All",
@@ -1394,10 +1394,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\api\\core\\load.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\core\\locale.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\core\\locale.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/api/core/locale.md",
       "AssetKind": "All",
@@ -1411,10 +1411,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\api\\core\\locale.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\currency\\currency-formatter.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\currency\\currency-formatter.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/api/currency/currency-formatter.md",
       "AssetKind": "All",
@@ -1428,10 +1428,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\api\\currency\\currency-formatter.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\currency\\currency-to-parts-formatter.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\currency\\currency-to-parts-formatter.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/api/currency/currency-to-parts-formatter.md",
       "AssetKind": "All",
@@ -1445,10 +1445,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\api\\currency\\currency-to-parts-formatter.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\date\\date-formatter.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\date\\date-formatter.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/api/date/date-formatter.md",
       "AssetKind": "All",
@@ -1462,10 +1462,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\api\\date\\date-formatter.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\date\\date-parser.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\date\\date-parser.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/api/date/date-parser.md",
       "AssetKind": "All",
@@ -1479,10 +1479,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\api\\date\\date-parser.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\date\\date-to-parts-formatter.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\date\\date-to-parts-formatter.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/api/date/date-to-parts-formatter.md",
       "AssetKind": "All",
@@ -1496,10 +1496,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\api\\date\\date-to-parts-formatter.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\date\\load-iana-time-zone.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\date\\load-iana-time-zone.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/api/date/load-iana-time-zone.md",
       "AssetKind": "All",
@@ -1513,10 +1513,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\api\\date\\load-iana-time-zone.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\message\\load-messages.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\message\\load-messages.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/api/message/load-messages.md",
       "AssetKind": "All",
@@ -1530,10 +1530,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\api\\message\\load-messages.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\message\\message-formatter.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\message\\message-formatter.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/api/message/message-formatter.md",
       "AssetKind": "All",
@@ -1547,10 +1547,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\api\\message\\message-formatter.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\number\\number-formatter.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\number\\number-formatter.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/api/number/number-formatter.md",
       "AssetKind": "All",
@@ -1564,10 +1564,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\api\\number\\number-formatter.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\number\\number-parser.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\number\\number-parser.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/api/number/number-parser.md",
       "AssetKind": "All",
@@ -1581,10 +1581,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\api\\number\\number-parser.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\number\\number-to-parts-formatter.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\number\\number-to-parts-formatter.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/api/number/number-to-parts-formatter.md",
       "AssetKind": "All",
@@ -1598,10 +1598,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\api\\number\\number-to-parts-formatter.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\plural\\plural-generator.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\plural\\plural-generator.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/api/plural/plural-generator.md",
       "AssetKind": "All",
@@ -1615,10 +1615,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\api\\plural\\plural-generator.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\relative-time\\relative-time-formatter.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\relative-time\\relative-time-formatter.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/api/relative-time/relative-time-formatter.md",
       "AssetKind": "All",
@@ -1632,10 +1632,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\api\\relative-time\\relative-time-formatter.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\unit\\unit-formatter.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\api\\unit\\unit-formatter.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/api/unit/unit-formatter.md",
       "AssetKind": "All",
@@ -1649,10 +1649,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\api\\unit\\unit-formatter.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\blog-post\\2017-07-xx-1.3.0-announcement.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\blog-post\\2017-07-xx-1.3.0-announcement.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/blog-post/2017-07-xx-1.3.0-announcement.md",
       "AssetKind": "All",
@@ -1666,10 +1666,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\blog-post\\2017-07-xx-1.3.0-announcement.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\cldr.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\cldr.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/cldr.md",
       "AssetKind": "All",
@@ -1683,10 +1683,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\cldr.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-default-locale-not-defined.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-default-locale-not-defined.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/error/e-default-locale-not-defined.md",
       "AssetKind": "All",
@@ -1700,10 +1700,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\error\\e-default-locale-not-defined.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-invalid-cldr.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-invalid-cldr.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/error/e-invalid-cldr.md",
       "AssetKind": "All",
@@ -1717,10 +1717,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\error\\e-invalid-cldr.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-invalid-par-type.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-invalid-par-type.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/error/e-invalid-par-type.md",
       "AssetKind": "All",
@@ -1734,10 +1734,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\error\\e-invalid-par-type.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-invalid-par-value.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-invalid-par-value.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/error/e-invalid-par-value.md",
       "AssetKind": "All",
@@ -1751,10 +1751,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\error\\e-invalid-par-value.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-missing-cldr.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-missing-cldr.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/error/e-missing-cldr.md",
       "AssetKind": "All",
@@ -1768,10 +1768,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\error\\e-missing-cldr.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-missing-parameter.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-missing-parameter.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/error/e-missing-parameter.md",
       "AssetKind": "All",
@@ -1785,10 +1785,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\error\\e-missing-parameter.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-missing-plural-module.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-missing-plural-module.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/error/e-missing-plural-module.md",
       "AssetKind": "All",
@@ -1802,10 +1802,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\error\\e-missing-plural-module.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-par-missing-key.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-par-missing-key.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/error/e-par-missing-key.md",
       "AssetKind": "All",
@@ -1819,10 +1819,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\error\\e-par-missing-key.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-par-out-of-range.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-par-out-of-range.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/error/e-par-out-of-range.md",
       "AssetKind": "All",
@@ -1836,10 +1836,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\error\\e-par-out-of-range.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-unsupported.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\error\\e-unsupported.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/error/e-unsupported.md",
       "AssetKind": "All",
@@ -1853,10 +1853,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\error\\e-unsupported.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\migrating-from-0.x.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\doc\\migrating-from-0.x.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/doc/migrating-from-0.x.md",
       "AssetKind": "All",
@@ -1870,10 +1870,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\doc\\migrating-from-0.x.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\amd-bower\\.bowerrc",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\amd-bower\\.bowerrc",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/amd-bower/.bowerrc",
       "AssetKind": "All",
@@ -1887,10 +1887,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\amd-bower\\.bowerrc"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\amd-bower\\.npmignore",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\amd-bower\\.npmignore",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/amd-bower/.npmignore",
       "AssetKind": "All",
@@ -1904,10 +1904,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\amd-bower\\.npmignore"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\amd-bower\\bower.json",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\amd-bower\\bower.json",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/amd-bower/bower.json",
       "AssetKind": "All",
@@ -1921,10 +1921,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\amd-bower\\bower.json"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\amd-bower\\index.html",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\amd-bower\\index.html",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/amd-bower/index.html",
       "AssetKind": "All",
@@ -1938,10 +1938,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\amd-bower\\index.html"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\amd-bower\\main.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\amd-bower\\main.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/amd-bower/main.js",
       "AssetKind": "All",
@@ -1955,10 +1955,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\amd-bower\\main.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\amd-bower\\messages\\en.json",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\amd-bower\\messages\\en.json",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/amd-bower/messages/en.json",
       "AssetKind": "All",
@@ -1972,10 +1972,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\amd-bower\\messages\\en.json"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\amd-bower\\package.json",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\amd-bower\\package.json",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/amd-bower/package.json",
       "AssetKind": "All",
@@ -1989,10 +1989,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\amd-bower\\package.json"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\amd-bower\\README.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\amd-bower\\README.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/amd-bower/README.md",
       "AssetKind": "All",
@@ -2006,10 +2006,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\amd-bower\\README.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\.npmignore",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\.npmignore",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/app-npm-webpack/.npmignore",
       "AssetKind": "All",
@@ -2023,10 +2023,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\.npmignore"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\app\\index.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\app\\index.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/app-npm-webpack/app/index.js",
       "AssetKind": "All",
@@ -2040,10 +2040,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\app\\index.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\index-template.html",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\index-template.html",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/app-npm-webpack/index-template.html",
       "AssetKind": "All",
@@ -2057,10 +2057,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\index-template.html"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\ar.json",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\ar.json",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/app-npm-webpack/messages/ar.json",
       "AssetKind": "All",
@@ -2074,10 +2074,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\ar.json"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\de.json",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\de.json",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/app-npm-webpack/messages/de.json",
       "AssetKind": "All",
@@ -2091,10 +2091,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\de.json"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\en.json",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\en.json",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/app-npm-webpack/messages/en.json",
       "AssetKind": "All",
@@ -2108,10 +2108,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\en.json"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\es.json",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\es.json",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/app-npm-webpack/messages/es.json",
       "AssetKind": "All",
@@ -2125,10 +2125,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\es.json"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\pt.json",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\pt.json",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/app-npm-webpack/messages/pt.json",
       "AssetKind": "All",
@@ -2142,10 +2142,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\pt.json"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\ru.json",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\ru.json",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/app-npm-webpack/messages/ru.json",
       "AssetKind": "All",
@@ -2159,10 +2159,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\ru.json"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\zh.json",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\zh.json",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/app-npm-webpack/messages/zh.json",
       "AssetKind": "All",
@@ -2176,10 +2176,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\messages\\zh.json"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\package.json",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\package.json",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/app-npm-webpack/package.json",
       "AssetKind": "All",
@@ -2193,10 +2193,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\package.json"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\README.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\README.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/app-npm-webpack/README.md",
       "AssetKind": "All",
@@ -2210,10 +2210,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\README.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\webpack-config.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\webpack-config.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/app-npm-webpack/webpack-config.js",
       "AssetKind": "All",
@@ -2227,10 +2227,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\app-npm-webpack\\webpack-config.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\globalize-compiler\\.npmignore",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\globalize-compiler\\.npmignore",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/globalize-compiler/.npmignore",
       "AssetKind": "All",
@@ -2244,10 +2244,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\globalize-compiler\\.npmignore"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\globalize-compiler\\app.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\globalize-compiler\\app.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/globalize-compiler/app.js",
       "AssetKind": "All",
@@ -2261,10 +2261,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\globalize-compiler\\app.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\globalize-compiler\\development.html",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\globalize-compiler\\development.html",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/globalize-compiler/development.html",
       "AssetKind": "All",
@@ -2278,10 +2278,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\globalize-compiler\\development.html"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\globalize-compiler\\messages.json",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\globalize-compiler\\messages.json",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/globalize-compiler/messages.json",
       "AssetKind": "All",
@@ -2295,10 +2295,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\globalize-compiler\\messages.json"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\globalize-compiler\\package.json",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\globalize-compiler\\package.json",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/globalize-compiler/package.json",
       "AssetKind": "All",
@@ -2312,10 +2312,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\globalize-compiler\\package.json"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\globalize-compiler\\production.html",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\globalize-compiler\\production.html",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/globalize-compiler/production.html",
       "AssetKind": "All",
@@ -2329,10 +2329,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\globalize-compiler\\production.html"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\globalize-compiler\\README.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\globalize-compiler\\README.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/globalize-compiler/README.md",
       "AssetKind": "All",
@@ -2346,10 +2346,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\globalize-compiler\\README.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\node-npm\\main.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\node-npm\\main.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/node-npm/main.js",
       "AssetKind": "All",
@@ -2363,10 +2363,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\node-npm\\main.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\node-npm\\messages\\en.json",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\node-npm\\messages\\en.json",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/node-npm/messages/en.json",
       "AssetKind": "All",
@@ -2380,10 +2380,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\node-npm\\messages\\en.json"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\node-npm\\package.json",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\node-npm\\package.json",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/node-npm/package.json",
       "AssetKind": "All",
@@ -2397,10 +2397,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\node-npm\\package.json"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\node-npm\\README.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\node-npm\\README.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/node-npm/README.md",
       "AssetKind": "All",
@@ -2414,10 +2414,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\node-npm\\README.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\plain-javascript\\.npmignore",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\plain-javascript\\.npmignore",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/plain-javascript/.npmignore",
       "AssetKind": "All",
@@ -2431,10 +2431,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\plain-javascript\\.npmignore"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\plain-javascript\\index.html",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\plain-javascript\\index.html",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/plain-javascript/index.html",
       "AssetKind": "All",
@@ -2448,10 +2448,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\plain-javascript\\index.html"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\plain-javascript\\README.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\examples\\plain-javascript\\README.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/examples/plain-javascript/README.md",
       "AssetKind": "All",
@@ -2465,10 +2465,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\examples\\plain-javascript\\README.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\LICENSE",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\LICENSE",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/LICENSE",
       "AssetKind": "All",
@@ -2482,10 +2482,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\LICENSE"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\package.json",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\package.json",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/package.json",
       "AssetKind": "All",
@@ -2499,10 +2499,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\package.json"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\README.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\globalize\\README.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/globalize/README.md",
       "AssetKind": "All",
@@ -2516,10 +2516,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\globalize\\README.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery/dist/jquery.js",
       "AssetKind": "All",
@@ -2533,10 +2533,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery/dist/jquery.min.js",
       "AssetKind": "All",
@@ -2550,10 +2550,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery/dist/jquery.min.map",
       "AssetKind": "All",
@@ -2567,10 +2567,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\dist\\jquery.min.map"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery\\LICENSE.txt",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery/LICENSE.txt",
       "AssetKind": "All",
@@ -2584,10 +2584,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery\\LICENSE.txt"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.js",
       "AssetKind": "All",
@@ -2601,10 +2601,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation/dist/additional-methods.min.js",
       "AssetKind": "All",
@@ -2618,10 +2618,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.js",
       "AssetKind": "All",
@@ -2635,10 +2635,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation/dist/jquery.validate.min.js",
       "AssetKind": "All",
@@ -2652,10 +2652,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation/LICENSE.md",
       "AssetKind": "All",
@@ -2669,10 +2669,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation\\LICENSE.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\.npmignore",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\.npmignore",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/.npmignore",
       "AssetKind": "All",
@@ -2686,10 +2686,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\.npmignore"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\.travis.yml",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\.travis.yml",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/.travis.yml",
       "AssetKind": "All",
@@ -2703,10 +2703,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\.travis.yml"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\bower.json",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\bower.json",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/bower.json",
       "AssetKind": "All",
@@ -2720,10 +2720,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\bower.json"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\gulpfile.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\gulpfile.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/gulpfile.js",
       "AssetKind": "All",
@@ -2737,10 +2737,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\gulpfile.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/jquery.validate.globalize.js",
       "AssetKind": "All",
@@ -2754,10 +2754,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.min.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.min.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/jquery.validate.globalize.min.js",
       "AssetKind": "All",
@@ -2771,10 +2771,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.min.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.min.js.map",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.min.js.map",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/jquery.validate.globalize.min.js.map",
       "AssetKind": "All",
@@ -2788,10 +2788,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\jquery.validate.globalize.min.js.map"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\LICENSE",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\LICENSE",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/LICENSE",
       "AssetKind": "All",
@@ -2805,10 +2805,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\LICENSE"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/nuget/content/scripts/jquery.validate.globalize.js",
       "AssetKind": "All",
@@ -2822,10 +2822,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.min.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.min.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/nuget/content/scripts/jquery.validate.globalize.min.js",
       "AssetKind": "All",
@@ -2839,10 +2839,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.min.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.min.js.map",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.min.js.map",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/nuget/content/scripts/jquery.validate.globalize.min.js.map",
       "AssetKind": "All",
@@ -2856,10 +2856,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\nuget\\content\\scripts\\jquery.validate.globalize.min.js.map"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.0.nupkg",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.0.nupkg",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/nuget/jQuery.Validation.Globalize.1.0.0.nupkg",
       "AssetKind": "All",
@@ -2873,10 +2873,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.0.nupkg"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.0.nuspec",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.0.nuspec",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/nuget/jQuery.Validation.Globalize.1.0.0.nuspec",
       "AssetKind": "All",
@@ -2890,10 +2890,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.0.nuspec"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.1.nupkg",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.1.nupkg",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/nuget/jQuery.Validation.Globalize.1.0.1.nupkg",
       "AssetKind": "All",
@@ -2907,10 +2907,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.1.nupkg"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.1.nuspec",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.1.nuspec",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/nuget/jQuery.Validation.Globalize.1.0.1.nuspec",
       "AssetKind": "All",
@@ -2924,10 +2924,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\nuget\\jQuery.Validation.Globalize.1.0.1.nuspec"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\package.json",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\package.json",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/package.json",
       "AssetKind": "All",
@@ -2941,10 +2941,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\package.json"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\README.md",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\README.md",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/README.md",
       "AssetKind": "All",
@@ -2958,10 +2958,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\README.md"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\test\\fakes.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\test\\fakes.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/test/fakes.js",
       "AssetKind": "All",
@@ -2975,10 +2975,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\test\\fakes.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\test\\qunit\\qunit.css",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\test\\qunit\\qunit.css",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/test/qunit/qunit.css",
       "AssetKind": "All",
@@ -2992,10 +2992,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\test\\qunit\\qunit.css"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\test\\qunit\\qunit.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\test\\qunit\\qunit.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/test/qunit/qunit.js",
       "AssetKind": "All",
@@ -3009,10 +3009,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\test\\qunit\\qunit.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\test\\tests.html",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\test\\tests.html",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/test/tests.html",
       "AssetKind": "All",
@@ -3026,10 +3026,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\test\\tests.html"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\test\\tests.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-globalize\\test\\tests.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-globalize/test/tests.js",
       "AssetKind": "All",
@@ -3043,10 +3043,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-globalize\\test\\tests.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.js",
       "AssetKind": "All",
@@ -3060,10 +3060,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/jquery.validate.unobtrusive.min.js",
       "AssetKind": "All",
@@ -3077,10 +3077,10 @@
       "OriginalItemSpec": "wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
     },
     {
-      "Identity": "D:\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "Identity": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
       "SourceId": "TestVueWebApp",
       "SourceType": "Discovered",
-      "ContentRoot": "D:\\Billing\\TestVueWebApp\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\Егерь\\Documents\\GitHub\\Billing\\TestVueWebApp\\wwwroot\\",
       "BasePath": "_content/TestVueWebApp",
       "RelativePath": "lib/jquery-validation-unobtrusive/LICENSE.txt",
       "AssetKind": "All",
